@@ -1,0 +1,81 @@
+:root {
+    --color-bg-1: #1c1a19;
+    --color-bg-2: #fff;
+    --primary-color: #ff6b00;
+    --secondary-color: #3c3a39;
+    --font: 'Poppins', 'san serif';
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 24px auto 44px;
+    align-items: end;
+    padding: 5px 0 5px 10px;
+    border-bottom: 1px solid #ddd;
+    column-gap: 8px;
+    background-color: var(--color-bg-2);
+}
+
+header img {
+    display: block;
+    width: 100%;
+    height: auto;
+    color: var(--color-bg-1);
+}
+
+header span {
+    font-size: 1.2rem;
+    color: var(--color-bg-1);
+}
+
+.humburger {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: var(--color-bg-1);
+}
+
+.humburger::before {
+    content: "\2630";
+    font-size: 1.6rem;
+}
+
+.humburger.show::before {
+    content: "\00D7";
+}
+
+main {
+    background-color: var(--color-bg-2);
+    padding: 5px 0 5px 10px;
+}
+
+h1 {
+    font-family: var(--font);
+    font-size: 2rem;
+    color: var(--color-bg-1);
+}
+
+section {
+    padding: 1rem 10px;
+}
+
+.first-section h2 {
+    font-family: var(--font);
+    background-color: var(--color-bg-1);
+    color: var(--color-bg-2);
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding: 5px 0;
+}
+
+.first-section p {
+    font-family: var(--font);
+    font-size: 1rem;
+}
