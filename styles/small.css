@@ -57,15 +57,12 @@ header span {
 
 .navigation {
     display: none;
+    background-color: var(--color-bg-1);
+    margin: 0 10px;
 }
 
 .navigation.show {
     display: block;
-}
-
-.navigation {
-    background-color: var(--color-bg-1);
-    margin: 0 10px;
 }
 
 .navigation li {
