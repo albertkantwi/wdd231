@@ -178,7 +178,7 @@ footer div {
     background-color: var(--primary-color);
     margin: 10px;
     color: var(--color-bg-2);
-
+    border-radius: 5px;
 }
 
 .buttons .selectedCourse {
