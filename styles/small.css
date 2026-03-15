@@ -3,13 +3,17 @@
     --color-bg-2: #fff;
     --primary-color: #ff6b00;
     --secondary-color: #3c3a39;
-    --font: 'Poppins', 'san serif';
+    --font: 'Roboto', 'Lato', 'san serif';
 }
 
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font);
 }
 
 header {
@@ -94,7 +98,6 @@ main {
 }
 
 h1 {
-    font-family: var(--font);
     font-size: 2rem;
     color: var(--color-bg-1);
 }
@@ -109,7 +112,6 @@ section {
 }
 
 h2 {
-    font-family: var(--font);
     background-color: var(--color-bg-1);
     color: var(--color-bg-2);
     text-align: center;
