@@ -7,12 +7,60 @@
     <meta name="author" content="Albert Antwi">
     <meta property="og:title" content="Commerce City Chamber of Commerce Directory">
     <meta property="og:description" content="A listing of businesses, services, and business contacts for members of the Commerce City Chamber of Commerce.">
+    <meta property="og:url" content="https://jsbowen79.github.io/wdd231/chamber/directory.html">
+    <meta property="og:image" content="https://jsbowen79.github.io/wdd231/chamber/images/hero_1280x720.avif">
     <meta property="og:image:width" content="1280">
     <meta property="og:image:height" content="720">
     <link rel="icon" href="images/favicon.ico">
     <title>Chamber of Commerce</title>
 </head>
 <body>
+    <header>
+        <img src="images/bag-fill.svg" lt="Commerce City Chamber of Commerce Logo">
+        <h1>Commerce City Chamber of Commerce</h1>
+        <button id="ham-btn" class="hamburger"></button>
+        <nav id="nav-bar" class="navigation">
+            <ul>
+                <li class="home"><a href=""><span></span>Home</a></li>
+                <li class="directory current"><a href=""><span class="checked">✓</span>Directory</a></li>
+                <li class="join"><a href=""><span></span>Join</a></li>
+                <li class="discover"><a href=""><span></span>Discover</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="hero">
+            <img src="images/commerce-hero-small.jpg" alt="A photo of Dick's Sporting Goods Park in Commerce City">
+        </div>
+        <div class="button">
+            <button id="grid">🔲 Grid</button>
+            <button id="list">📃 List</button>
+        </div>
+        <div class="cards gridDisplay"></div>
+    </main>
+    <footer>
+        <div class="address">
+            <h2>Commerce City <br>Chamber of Commerce</h2>
+            <p>P.O. Box 1023 </p> 
+            <p>Commerce City, CO 454</p> 
+            <p>info@4CChamber.com</p>
+            <p>(720)864533</p>
+        </div> 
+        <div class="social">
+            <a href="https://www.facebook.com/" target="_blank"><img src="../images/facebook.svg"
+                    alt="Facebook logo" width="80" height="80"></a>
+            <a href="" target="_blank"><img src="../images/linkedin.svg"
+                    alt="LinkedIn logo" width="80" height="80"></a>
+            <a href="" target="_blank"><img src="../images/github.svg" 
+                alt="Github logo" width="80" height="80"></a>
+        </div>
+        <div class="copyright">
+            <p>WDD231 Class Project</p>
+            <p>Albert Antwi
+            <span id="currentyear">© 2026 Commerce City Chamber of Commerce</span> 
+            <p id="lastModified">Last Modified: </p>
+        </div>
+    </footer>
     
 </body>
 </html>
