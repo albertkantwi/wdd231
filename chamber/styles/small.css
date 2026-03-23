@@ -16,7 +16,7 @@ body {
     font-family: var(--font);
 }
 
-header {
+header div {
     display: grid;
     grid-template-columns: 32px auto 44px;
     align-items: center;
@@ -119,6 +119,12 @@ main {
     font-size: 1.2rem;
     color: var(--primary-color);
     padding: 20px 0;
+}
+
+.cards ol {
+    list-style: none;
+    text-align: center;
+    color: var(--primary-color);
 }
 
 footer {
