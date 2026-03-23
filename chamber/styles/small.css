@@ -1,0 +1,124 @@
+:root {
+    --color-bg-1: #1c1a19;
+    --color-bg-2: #fff;
+    --primary-color: #ff6b00;
+    --secondary-color: #3c3a39;
+    --font: 'Poppins', 'san serif';
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font);
+}
+
+header {
+    display: grid;
+    grid-template-columns: 32px auto 44px;
+    align-items: center;
+    padding: 5px 0 5px 10px;
+    border-bottom: 1px solid #ddd;
+    column-gap: 8px;
+    background-color: var(--color-bg-2);
+}
+
+header img {
+    display: block;
+    width: 100%;
+    height: auto;
+    color: var(--color-bg-1);
+}
+
+header span {
+    color: var(--color-bg-1);
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.humburger {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: var(--color-bg-1);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.humburger::before {
+    content: "\2630";
+    font-size: 1.6rem;
+}
+
+.humburger.show::before {
+    content: "\00D7";
+}
+
+.navigation {
+    display: none;
+    background-color: var(--color-bg-1);
+    margin: 0 10px;
+}
+
+.navigation.show {
+    display: block;
+}
+
+.navigation li {
+    list-style: none;
+    padding: 0 10px;
+
+}
+
+.navigation a {
+    display: block;
+    text-decoration: none;
+    color: var(--color-bg-2);
+    font-size: 1.2rem;
+    border-bottom: 1px solid var(--secondary-color);
+    padding: 0.8rem 0;
+}
+
+.navigation li.current {
+    background-color: #3c3a39;
+}
+
+.navigation li:hover {
+    background-color: #ff6b00;
+}
+
+main {
+    background-color: var(--color-bg-2);
+    padding: 5px 10px 5px;
+}
+
+.hero img{
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #eee;
+    padding: 30px 10px 30px;
+
+}
+
+.address h2 {
+    color: var(--color-bg-1);
+    font-size: 1rem;
+}
+
+footer p {
+    color: var(--color-bg-1);
+    font-size: 0.8rem;
+}
+
+.social {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0;
+}
+
