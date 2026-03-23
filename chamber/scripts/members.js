@@ -52,16 +52,12 @@ document.addEventListener("DOMContentLoaded", () => {
             webLinkEL.textContent = member.companyWebsiteURL;
             webLinkEL.target = "_blank"; 
 
-            const descriptionEL = document.createElement('p');
-            descriptionEL.textContent = member.description;
-
             cardEL.append(
                 nameEL,
                 imgEL,
                 addressEL,
                 phoneEL,
                 webLinkEL,
-                descriptionEL
             );
 
             cardsEL.appendChild(cardEL);
