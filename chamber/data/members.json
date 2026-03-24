@@ -41,7 +41,7 @@
         "img": "images/inspire-Logo.png",
         "alt": "Enspirefx Website LTD Logo",
         "width": "320",
-        "height": "161"
+        "height": "141"
     },
     {
         "companyName": "Dalex Financial",
@@ -64,8 +64,8 @@
         "description": "Phone, laptop, computer, game station, electronics repair and retail accessories.",
         "img": "images/hubtel-logo.png",
         "alt": "Hubtel Logo",
-        "width": "320",
-        "height": "213"
+        "width": "220",
+        "height": "160"
     },
     {
         "companyName": "merton & everett llp",
@@ -77,7 +77,7 @@
         "img": "images/merton-logo.webp",
         "alt": "merton & everett llp Logo",
         "width": "320", 
-        "height":"213"
+        "height":"160"
     } 
     
     ]}
