@@ -146,19 +146,17 @@ h1 {
 }
 
 .spotlight{
-    min-height: 800px;
-}
-
-.spotlight{
     display: grid; 
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
     grid-gap: 20px;
+    min-height: 800px;
     border-radius: 5px;
     text-align: center;
     padding: 10px;
     align-items: start;
     width: 85%;
     justify-self: center; 
+
 }
 
 .spotlight img {
