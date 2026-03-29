@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
     const ctaEL = document.querySelector(".cta button"); 
     const spotlightEL = document.querySelector('.spotlight');
-    const dictionaryUrl = 'https://albertkantwi/wdd231/chamber/data/members.json';
+    const dictionaryUrl = 'https://albertkantwi.github.io/wdd231/chamber/data/members.json';
     let membersDictionary;
     
     async function getData() {

@@ -180,3 +180,103 @@ footer p {
     margin: 20px 0;
 }
 
+
+.grid-section {
+    display: block;
+    margin: 30px 0;
+}
+
+
+.coming-event {
+    background-color: #ddd;
+    border: 1px solid var(--color-bg-1);
+    border-radius: 3px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.coming-event h2 {
+    font-weight: 600;
+    font-size: 1.5rem;
+    text-align: center;
+    color: var(--primary-color);
+}
+
+.event {
+    width: 100%;
+}
+
+tr, th, td{
+    color: var(--color-bg-1);
+    font-size: 0.8rem;
+}
+
+.event td:last-child, .event th:last-child{
+    text-align: center;
+}
+
+.currentWeather {
+    background-color: var(--color-bg-1);
+    border: 1px solid var(--primary-color);
+    border-radius: 3px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.currentWeather h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    color: var(--color-bg-2);
+}
+
+.currentWeather p {
+    color: var(--primary-color);
+    font-size: 0.8rem;
+}
+
+.forecast{
+    background: #ddd; 
+    padding: var(--standard); 
+    border: 1px solid var(--secondary-color);
+    border-radius: 3px;
+    min-height: 750px;
+}
+
+.forecast h4 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    color: var(--primary-color);
+    margin-top: 20px;
+    border-bottom: 2px solid var(--secondary-color);
+}
+
+.weatherForecast{
+    display: flex; 
+    flex-direction: column;
+}
+
+.weatherForecast div{
+    display: block; 
+    width: 100%; 
+    padding: 20px; 
+    border-bottom: 2px solid var(--secondary-color); 
+}
+
+.weatherForecast p{
+    color: var(--color-bg-1);
+    text-align: center;
+}
+
+.weatherForecast img {
+    display: block; 
+    width: 70px; 
+    height: 70px;
+    background-color: var(--color-bg-2);
+    border: 2px solid var(--primary-color); 
+    border-radius: 100%;
+    margin: 0 auto; 
+}
+
+
