@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const weatherUrl = 'https://api.openweathermap.org/data/2.5/weather?lat=39.90&lon=-104.86&units=imperial&appid=504ff96238a969e6bd0f23cdd2306770';
-    const forecastUrl = 'https://api.openweathermap.org/data/2.5/forecast?lat=39.90&lon=-104.86&units=imperial&appid=504ff96238a969e6bd0f23cdd2306770';
+    const weatherUrl = 'https://api.openweathermap.org/data/2.5/weather?lat=5.68&lon=-0.20&units=imperial&appid=504ff96238a969e6bd0f23cdd2306770';
+    const forecastUrl = 'https://api.openweathermap.org/data/2.5/forecast?lat=5.68&lon=-0.20&units=imperial&appid=504ff96238a969e6bd0f23cdd2306770';
     const tempEL = document.querySelector('#current-temp');
     const iconEL = document.querySelector('#weather-icon');
     const currentDescriptionEL = document.querySelector('#current_description'); 
