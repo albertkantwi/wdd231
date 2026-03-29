@@ -50,6 +50,40 @@
         align-items: stretch;
     }
 
+    .grid-section {
+        display: grid;
+        grid-template-columns: 1fr 200px 1fr;
+        column-gap: 5px;
+    }
+
+    .coming-event {
+            padding: 5px;
+            width: 100%;
+            margin-bottom: 0; 
+        }
+
+    .currentWeather {
+            height: 100%;
+        }
+    
+    .weatherForecast {
+        flex-direction: row;
+    }
+
+    .weatherForecast div {
+        border: none;
+
+    }
+
+    .spotlight{
+        min-height: 400px;
+    }
+
+    .forecast{
+        min-height: 300px;
+    }
+            
+
     footer {
         display: flex;
         justify-content: space-around;
