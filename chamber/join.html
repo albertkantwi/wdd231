@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD 231 - Chamber of commerce - Albert Antwi homepage">
+    <meta name="author" content="Albert Antwi">
+    <meta property="og:title" content="Commerce City Chamber of Commerce Directory">
+    <meta property="og:description" content="A listing of businesses, services, and business contacts for members of the Commerce City Chamber of Commerce.">
+    <meta property="og:url" content="https://albertkantwi.github.io/wdd231/chamber/directory.html">
+    <meta property="og:image" content="https://albertkantwi.github.io/wdd231/chamber/images/commerce-hero-small.jpg">
+    <meta property="og:image:width" content="1280">
+    <meta property="og:image:height" content="720">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/footer.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
+    <script src="scripts/sportlight.js" defer></script>
+    <title>Accra City Chamber of Commerce Home Page</title>
+</head>
+<body>
+    <header>
+        <div>
+            <img src="images/bag-fill.svg" alt="Commerce City Chamber of Commerce Logo">
+            <span>Accra City Chamber of Commerce</span>
+            <button id="hum-btn" class="humburger"></button>        
+        </div>
+        
+        <nav>
+            <ul id="nav-bar" class="navigation">
+                <li class="home"><a href="https://albertkantwi.github.io/wdd231/chamber/index.html"><span></span>Home</a></li>
+                <li class="directory current"><a href="https://albertkantwi.github.io/wdd231/chamber/directory.html"><span class="checked">✓</span>Directory</a></li>
+                <li class="join"><a href="https://albertkantwi.github.io/wdd231/chamber/join.html"><span></span>Join</a></li>
+                <li class="discover"><a href="https://albertkantwi.github.io/wdd231/chamber/discover.html"><span></span>Discover</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="hero">
+            <img src="images/join-hero.jpg" alt="A photo of University of Ghana">
+        </div>
+        <h2 class="heading">Become a Member Today!</h2>
+        <div class="formGrid">
+
+           <form action="thankyou.html" method="get">
+                <div class="form">
+
+                    <label for="fname">First Name</label>
+                    <input type="text" name="fname" id="fname" required title="Enter your first name" autocomplete="given-name" placeholder="First Name">
+                    <label for="lname">Last Name</label>
+                    <input type="text" required name="lname" id="lname" title="Enter your last name" autocomplete="family-name" placeholder="Last Name">
+                    <label for="org">Organization</label>
+                    <input type="text" name="org" id="org" required title="Please enter the name of your Organization" autocomplete="organization" placeholder="Organization Name">
+                    <label for="title">Organizational Title</label>
+                    <input type="text" name="title" id="title" autocomplete="organization-title" pattern="[a-zA-z\-\s]{7,}" title="Requires a minimum of 7 characters.  Only letters, hyphens(-), or spaces( ) allowed." placeholder="Organizational Title">
+                    <label for="email">Email Address</label>
+                    <input type="email" required name="email" id="email" autocomplete="email" placeholder="johndoe@commercecitychamber.net" title="Please enter your email.">
+                    <label for="mobilePhone">Mobile Phone</label>
+                    <input type="tel" name="mobilePhone" id="mobilePhone" required title="Please enter your Mobile Phone number." autocomplete="tel" placeholder="(111)111-1111">
+                    <label for="membership">Membership Level</label>
+                    <select id="membership" name="membership">
+                        <option>NP--Non-Profit</option>
+                        <option>Bronze</option>
+                        <option>Silver</option>
+                        <option>Gold</option>
+                    </select>
+   
+                    <label class="membershipPrompt" for="orgDescription">Please Describe your Organization</label>
+                    <textarea name="orgDescription" id="orgDescription" title="Please enter a description of your organization."></textarea>
+                    <input type="hidden" id="timestamp" name="timestamp">
+                </div>
+                <div class="membershipCards">
+                    <h2>Available Membership Levels</h2>
+                    
+                    <div class="membershipCard nonprofit">
+                        <h3>Non-Profit</h3>
+                        <button class="joinbtn" id="npbttn"  type="button" aria-label="Non-Profit Membership button">Click here to learn more!</button>
+                        <dialog id="npModal">
+                            <h3>Non-Profit Membership Benefits</h3>
+                            <ul>
+                                <li>Listing in the Chamber Directory</li>
+                                <li>Discounted business add in Chamber Directory</li>
+                                <li>Member Pricing on events, workshops, and networking</li>
+                                <li>Member to Member discounts</li>
+                                <li>Volunteer opportunities for Chamber Committees</li>
+                                <li>Job postings on Chamber website</li>
+                                <li>Member Newsletter and updates</li>
+                                <li>Business Referrals</li>
+                                <li>Yearly Board Member Meet and Greet</li>
+                                <li>Discount on higher level membership packages</li>
+                                
+                            </ul>
+                            
+                            <p>Free for Non-Profit Organizations (501(C)(3) exempt status required)</p>
+                            <button id="npClose">Close</button>
+                        </dialog>
+                    </div>
+                    <div class="membershipCard bronze">
+                        <h4>Bronze</h4>
+                        <button type="button" class="joinbtn" id="brnzbttn" aria-label="Bronze Membership button">Click here to learn more!</button>
+                        <dialog id="brnzModal">
+                            <h4>Bronze Membership Benefits</h4>
+                            <ul>
+                                <li>Listing in the Chamber Directory</li>
+                                <li>Discounted business add in Chamber Directory</li>
+                                <li>Free entrance to any 2 events, workshops, and networking</li>
+                                <li>Member Pricing on additional events, workshops, and networking</li>
+                                <li>Member to Member discounts</li>
+                                <li>Volunteer opportunities for Chamber Committees</li>
+                                <li>Job postings on Chamber website</li>
+                                <li>Member Newsletter and updates</li>
+                                <li>Business Referrals</li>
+                                <li>Yearly Board Member Meet and Greet</li>
+                                
+                                
+                            </ul>
+                            
+                            <p>Cost: Only $900</p>
+                            <button id="brnzClose">Close</button>
+                        </dialog>
+                    </div>
+                    <div class="membershipCard silver">
+                        <h5>Silver</h5>
+                        <button type="button" class="joinbtn" id="silverbttn" aria-label="Silver Membership button">Click here to learn more!</button>
+                        <dialog id="silverModal">
+                            <h5>Silver Membership Benefits</h5>
+                            <ul>
+                                <li>Listing in the Chamber Directory</li>
+                                <li>Discounted business add in Chamber Directory</li>
+                                <li>Free entrance to any 6 events, workshops, and networking</li>
+                                <li>Member Pricing on additional events, workshops, and networking</li>
+                                <li>Member to Member discounts</li>
+                                <li>Volunteer opportunities for Chamber Committees</li>
+                                <li>Job postings on Chamber website</li>
+                                <li>Member Newsletter and updates</li>
+                                <li>Business Referrals</li>
+                                <li>Yearly Board Member Meet and Greet</li>
+                                <li>Opportunity to host a Chambers networking event</li>
+                                <li>Free "Spotlight" on the Chamber Home page</li>
+                                <li>Opportunity to include information in the Chamber membership packet</li>
+                                <li>Promotion of your organization through Facebook posts</li>
+                                
+                            </ul>
+                            
+                            <p>Cost: $1,500</p>
+                            <button id="silverClose">Close</button>
+                        </dialog>
+                        
+                    </div>
+                    <div class="membershipCard gold">
+                        <h6>Gold</h6>
+                        <button type="button" class="joinbtn" id="goldbttn" aria-label="Gold Membership button">Click here to learn more!</button>
+                        <dialog id="goldModal">
+                            <h6>Gold Membership Benefits</h6>
+                            <ul>
+                                <li>One position on the Chamber Board of Directors</li>
+                                <li>Live Facebook interview promoting your organization</li>
+                                <li>Yearly Trustee RoundTable Attendance</li>
+                                <li>Legislative Advocacy</li>
+                                <li>Listing in the Chamber Directory</li>
+                                <li>Discounted business add in Chamber Directory</li>
+                                <li>Free entrance to any 6 events, workshops, and networking</li>
+                                <li>Member Pricing on additional events, workshops, and networking</li>
+                                <li>Member to Member discounts</li>
+                                <li>Volunteer opportunities for Chamber Committees</li>
+                                <li>Job postings on Chamber website</li>
+                                <li>Member Newsletter and updates</li>
+                                <li>Business Referrals</li>
+                                <li>Yearly Board Member Meet and Greet</li>
+                                <li>Opportunity to host 3 Chambers networking events</li>
+                                <li>Free "Spotlight" on the Chamber Home page</li>
+                                <li>Opportunity to include information in the Chamber membership packet</li>
+                                <li>Promotion of your organization through Facebook posts</li>
+                                <li>Ability to host up to 2 Chamber events</li>
+                                <li>Trustee recognition at Annual meeting</li>
+                            </ul>
+                            
+                            <p>Cost: $3,500</p>
+                            <button id="goldClose">Close</button>
+                        </dialog>
+                    </div>
+                </div>
+                <div class="fullWidth">
+                    <button type="submit" class="joinbtn">Get Membership Benefits Now!</button>
+                </div>
+            </form>
+        </div>   
+    </main>
+    <footer>
+        <div class="address">
+            <h2>Accra City <br>Chamber of Commerce</h2>
+            <p>P.O. Box 1023 </p> 
+            <p>Commerce City, CO 454</p> 
+            <p>info@4CChamber.com</p>
+            <p>(720)864533</p>
+        </div> 
+        <div class="social">
+            <a href="https://www.facebook.com/" target="_blank"><img src="../images/facebook.svg"
+                    alt="Facebook logo" width="80" height="80"></a>
+            <a href="https://www.linkedin.com/in/albertkantwi/" target="_blank"><img src="../images/linkedin.svg"
+                    alt="LinkedIn logo" width="80" height="80"></a>
+            <a href="https://github.com/albertkantwi" target="_blank"><img src="../images/github.svg" 
+                alt="Github logo" width="80" height="80"></a>
+        </div>
+        <div class="copyright">
+            <p>WDD231 Class Project</p>
+            <p>Albert Antwi <br>© <span id="currentyear"></span> Accra City Chamber of Commerce</p>
+            <p>Last Modification: <span id="lastModified"></span></p>
+        
+        </div>
+    </footer>
+    
+</body>
+</html>
