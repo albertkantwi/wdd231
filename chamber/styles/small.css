@@ -317,6 +317,148 @@ tr, th, td{
     margin: 0 auto; 
 }
 
+form{
+    grid-column: span 2;
+    display: block;
+}
 
+form label {
+    margin: 5px; 
+    margin-right: 10px;
+    align-content: center;
+    padding-top: 12px; 
+}
+
+form input, select{
+    margin: 5px;
+    height: 40px; 
+    text-align: center; 
+}
+
+.membershipPrompt{
+    color: #ddd;
+    margin: 10px;
+    margin-top: 10px; 
+    grid-column: span 2; 
+    padding: 5px; 
+    font-size: 1rem;
+    text-align: left;
+}
+
+
+textarea {
+    grid-column: span 2;
+    height: 80px;
+    margin: 10px; 
+}
+
+.joinbtn{
+    grid-column: span 2;
+    margin: 10px;
+}
+
+.membershipCards{
+    height: 100%; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-around;
+}
+
+.membershipCards, .membershipCards h2{
+    background: #eee; 
+    justify-items: center;
+    padding-bottom: 10px;
+}
+
+h2 {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.membershipCard{
+    padding: 5px; 
+    margin: 10px; 
+    animation: fadeColor 4s ease-in-out infinite alternate; 
+}
+
+.form{
+    display: flex;
+    flex-direction: column; 
+} 
+
+.form-table { 
+    display: block;
+}
+
+@keyframes fadeColor {
+    from {
+        background-color: var(--primary-blue)
+    }
+    to{
+        background-color: var(--fade-to);
+    }
+    
+}
+.nonprofit{
+    --fade-to: var(--secondary-color);
+    --backdrop-color: #ddd; 
+}
+
+.bronze{
+    --fade-to: #CD7F32;
+    --backdrop-color: #cd7f32; 
+    animation-delay: 2s;
+    
+}
+
+.silver{
+    background-color: #ddd;
+    padding: 5px; 
+    font-size: 1.2rem;
+    --fade-to: silver;
+    --backdrop-color: silver;
+    animation-delay: 4s;
+}
+
+.gold{
+    padding: var(--standard); 
+    font-size: 1.3rem;
+    background-color: #ddd;
+    --fade-to: gold;
+    --backdrop-color: #eee;
+    animation-delay: 6s;
+    
+}
+
+dialog{
+    width: 80%; 
+    height: 80%; 
+    background-color: var(--color-bg-2);
+    border: 1px solid var(--secondary-color);
+    box-shadow: 0 0 10px #ddd; 
+    padding: 20px; 
+    position: fixed; 
+    left: 11%;
+    top: 10%;  
+    
+}
+
+dialog ul li{
+    font-size: .75rem;
+}
+
+dialog ul{
+    padding-left: 15px;
+}
+
+dialog::backdrop {
+    background-color: #ddd;
+    opacity: 90%;
+}
+
+dialog p{
+    font-size: .75rem;
+    color: var(--color-bg-1)
+}
 
 
