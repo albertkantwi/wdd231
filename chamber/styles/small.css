@@ -373,12 +373,14 @@ textarea {
 h2 {
     text-align: center;
     padding: 10px 0;
+    color: var(--primary-color);
 }
 
 .membershipCard{
     padding: 5px; 
     margin: 10px; 
-    animation: fadeColor 4s ease-in-out infinite alternate; 
+    animation: fadeColor 4s ease-in-out infinite alternate;
+    text-align: center;
 }
 
 .form{
@@ -428,6 +430,11 @@ h2 {
     --backdrop-color: #eee;
     animation-delay: 6s;
     
+}
+
+.fullWidth {
+    text-align: center;
+    margin: 15px 0;
 }
 
 dialog{

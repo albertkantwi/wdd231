@@ -93,4 +93,25 @@
         width: 300px;
     }
 
+    form{
+            grid-column: span 2;
+            display: grid; 
+            grid-template-columns: 1fr 1fr; 
+            gap: 20px;
+    }
+
+    .membershipCards {
+        grid-column: 2/3;
+        height: 700px; 
+        margin-top: 60px;
+    }
+        
+    .fullWidth{
+        grid-column: span 2;
+    }
+
+    dialog ul li, dialog p{
+        font-size: 1.75rem;
+    }
+
 }
