@@ -1,0 +1,67 @@
+*{
+    font-family: var(--font-primary); 
+    box-sizing: border-box;
+}
+
+h1, h2, h3{
+    font-family: var(--font-secondary);
+}
+
+header{
+    background-color: #ddd;
+    color: #000;
+}
+
+.primary{
+    background-color: #eee;
+    color: #000;
+}
+
+.secondary{
+    background-color: #eee;
+    color: #000;
+}
+
+.modal {
+    background-color: #4f393f;
+    color: #fff;
+}
+
+th{
+    color: #38064c;
+}
+
+.special td{
+    background-color: #eee;
+}
+
+.financial td{
+    color: #38064c;
+}
+
+.traffic td{
+    color: #38064c; 
+}
+
+.drug td{
+    color: #4f393f; 
+}
+
+.other td{
+    color: #38064c;
+}
+
+.wayfinding{
+    background-color: #eee;
+    color: #38064c; 
+}
+
+header img{
+    width: 150px; 
+    height: auto; 
+}
+
+img{
+    width: 450px;
+    height: auto; 
+}
