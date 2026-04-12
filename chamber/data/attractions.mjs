@@ -12,35 +12,35 @@ export const jsonData = {
         {
             "name": "Fishing boat site", 
             "address": "4900 Sandcreek Dr. S", 
-            "description": "Afishing boat site in the coast of Accra where you can enjoy the brease and watch the beautiful boat moving slowly on the sea",
+            "description": "A fishing boat site in the coast of Accra where you can enjoy the brease and watch the beautiful boat moving slowly on the sea",
             "website": "https://www.sandcreekgreenway.org/",
             "photo": "images/canoe.jpg"
         },
         {
-            "name" : "Historic Derby",
+            "name" : "Independence Square",
             "address": "72nd and Monaco",
-            "description" : "A 1950's era commercial hub, featuring well-preserved structures from that period.",
+            "description" : "Independence Square, also called Black Star Square is a large open public space that represents Ghana freedom and national pride",
             "website": "https://www.c3gov.com/Government/Urban-Renewal/Derby-Downtown-District",
             "photo": "images/independence.jpg"
         },
         {
-            "name": "Commerce City Museum",
+            "name": "James Town",
             "address": "6505 East 60th Avenue", 
-            "description": "A museum preserving the rich history of Commerce City since it's settling in 1850.", 
+            "description": "Jamestown is one of the oldest and most historic areas in Accra. It is known for its rich culture, colonial history, and vibrant street life", 
             "website": "https://www.cchistoric.com/about-the-museum",
             "photo": "images/jamestown.jpg"
         },
         {
-            "name": "Buffalo Run Golf Course", 
+            "name": "Kente Fastival", 
             "address": "15700 East 112th Avenue", 
-            "description": "An 18-hole, par-72 municipal Golf course designed by Keith Foster.  The course has 65 bunkers, challenging wind conditions, and lengths from 5,277 to 7,411 yards while offering Rocky Mountain Views.", 
+            "description": "Kente festival is a famous traditional cloth festival from Ghana. It is one of the most important cultural symbols in the country", 
             "website": "https://www.buffalorungolfcourse.com/",
             "photo": "images/kente.jpg"
         },
         {
-            "name": "Paradise Island at Pioneer Park",
-            "address": "5951 Monaco", 
-            "description": "State-of-the-art 2 acre outdoor water park with a 5,000 square foot zero-depth leisure pool, three water slides, a 250 foot lazy river, a 1,700 square foot toddler pool with features, and an activities pool with lap lanes.", 
+            "name": "La Pleasure Beach",
+            "address": "5951 Accra", 
+            "description": "La Pleasure Beach is one of the most popular and lively beaches in Accra. Eat local food like grilled fish, kebabs, and drinks", 
             "website": "https://www.c3gov.com/Parks-Recreation-Golf/Pools/Paradice-Island-Pool-at-Pioneer-Park",
             "photo": "images/sea.jpg"
         },
