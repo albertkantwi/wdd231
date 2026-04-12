@@ -54,7 +54,7 @@ export const jsonData = {
         {
             "name": "Mile High Flea Market", 
             "address": "7007 East 88th Avenue",
-            "description": "Local farmers, crafters, garage salers, side hustlers, hobbyists, and business starters sell their new, used, and hand crafted merchandise.  Visit us to find shopping, entertainment, rides, and food! It's like a fair, but open from 7 am to 5 pm every Friday, Saturday, and Sunday all year long! ",
+            "description": "Local farmers, crafters, garage salers, side hustlers, hobbyists, and business starters sell their new.  Visit us to find shopping, entertainment, rides, and food! It's like a fair, but open from 7 am to 5 pm every Friday, Saturday, and Sunday all year long! ",
             "website": "https://milehighfleamarket.com/",
             "photo": "images/culture.jpg"
         }
