@@ -526,3 +526,9 @@ color: var(--dark-gray);
     grid-area: description; 
 }
 
+#returnMessage{
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    padding: 10px; 
+    text-align: center;
+}

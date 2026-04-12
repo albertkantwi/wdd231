@@ -3,16 +3,16 @@ export const jsonData = {
     
         
         {
-            "name": "Rocky Mountain Arsenal Wildlife Refuge", 
+            "name": "Accra bicycle Ride", 
             "address": "6550 Gateway Road",
-            "description" : "The Rocky Mountain Arsenal was a Cold War era chemical weapons manufacturing site which has been transformed into a large urban wildlife refuge hosting over 330 species.",
+            "description" : "Take time and ride on street of Accra every Saturday morning for experience you will never get anywhere",
             "website": "https://www.fws.gov/refuge/rocky-mountain-arsenal",
             "photo" : "images/bike.jpg"
         },
         {
-            "name": "Sand Creek Regional Greenway", 
+            "name": "Fishing boat site", 
             "address": "4900 Sandcreek Dr. S", 
-            "description": "A nearly 13 mile, mostly paved public trail connecting Commerce City, Denver, and Aurora.  Running from the High Line Canal in Aurora to the South Platte River in Commerce City, the Sand Creek Regional Greenway provides a native ecosystem for walking, biking, and wildlife viewing.",
+            "description": "Afishing boat site in the coast of Accra where you can enjoy the brease and watch the beautiful boat moving slowly on the sea",
             "website": "https://www.sandcreekgreenway.org/",
             "photo": "images/canoe.jpg"
         },
