@@ -491,11 +491,12 @@ dialog p{
     background-color: #eee;
     color: var(--color-bg-1); 
     margin: 10px; 
+    border: 2px solid #757495;
 }
 
 .attraction:nth-child(even), .attraction:nth-child(even) *  {
 background-color: #757495;
-color: var(--dark-gray); 
+color: var(--color-bg-1); 
 }
 
 
