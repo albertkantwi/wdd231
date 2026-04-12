@@ -6,28 +6,28 @@ export const jsonData = {
             "name": "Accra bicycle Ride", 
             "address": "6550 Gateway Road",
             "description" : "Take time and ride on street of Accra every Saturday morning for experience you will never get anywhere",
-            "website": "https://www.fws.gov/refuge/rocky-mountain-arsenal",
+            "website": "https://www.gladiatorscyclingclub.org/",
             "photo" : "images/bike.jpg"
         },
         {
             "name": "Fishing boat site", 
             "address": "4900 Sandcreek Dr. S", 
             "description": "A fishing boat site in the coast of Accra where you can enjoy the brease and watch the beautiful boat moving slowly on the sea",
-            "website": "https://www.sandcreekgreenway.org/",
+            "website": "https://www.tripadvisor.com/",
             "photo": "images/canoe.jpg"
         },
         {
             "name" : "Independence Square",
             "address": "72nd and Accra",
             "description" : "Independence Square, also called Black Star Square is a large open public space that represents Ghana freedom and national pride",
-            "website": "https://www.c3gov.com/Government/Urban-Renewal/Derby-Downtown-District",
+            "website": "https://visitghana.com/independence-square/",
             "photo": "images/independence.jpg"
         },
         {
             "name": "James Town",
             "address": "6505 East 60th Avenue", 
             "description": "Jamestown is one of the oldest and most historic areas in Accra. It is known for its rich culture, colonial history, and vibrant street life", 
-            "website": "https://www.cchistoric.com/about-the-museum",
+            "website": "https://www.citylifeaccra.com/accra-by-area/jamestown-accra",
             "photo": "images/jamestown.jpg"
         },
         {
