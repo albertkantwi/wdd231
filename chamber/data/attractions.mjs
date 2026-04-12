@@ -14,7 +14,7 @@ export const jsonData = {
             "address": "4900 Sandcreek Dr. S", 
             "description": "A nearly 13 mile, mostly paved public trail connecting Commerce City, Denver, and Aurora.  Running from the High Line Canal in Aurora to the South Platte River in Commerce City, the Sand Creek Regional Greenway provides a native ecosystem for walking, biking, and wildlife viewing.",
             "website": "https://www.sandcreekgreenway.org/",
-            "photo": "images/canue.jpg"
+            "photo": "images/canoe.jpg"
         },
         {
             "name" : "Historic Derby",
@@ -56,7 +56,7 @@ export const jsonData = {
             "address": "7007 East 88th Avenue",
             "description": "Local farmers, crafters, garage salers, side hustlers, hobbyists, and business starters sell their new, used, and hand crafted merchandise.  Visit us to find shopping, entertainment, rides, and food! It's like a fair, but open from 7 am to 5 pm every Friday, Saturday, and Sunday all year long! ",
             "website": "https://milehighfleamarket.com/",
-            "photo": "images/fleaMarket.webp"
+            "photo": "images/culture.jpg"
         }
     ]
 

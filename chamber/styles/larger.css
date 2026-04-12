@@ -114,4 +114,26 @@
         font-size: 1.75rem;
     }
 
+    .attractions {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+    .attractions div {
+        grid-template-areas:
+            "photo name"
+            "photo description"
+            "photo  address";
+        min-height: 50px; 
+    }
+
+    .attraction figure img{
+       transition: transform 0.3s ease; 
+    }
+
+    .attraction figure img:hover{
+        transform: scale(1.5); 
+    }
+
 }

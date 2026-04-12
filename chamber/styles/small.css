@@ -468,4 +468,61 @@ dialog p{
     color: var(--color-bg-1)
 }
 
+.attractions div {
+    min-height: 490px;
+    padding: 10px; 
+    border-radius: 8px; 
+    overflow: hidden; 
+    display: grid; 
+    grid-template-areas: 
+    "name"
+    "photo"
+    "description"
+    "address";
+}
+
+.attraction :is(h2, figure, address, p, a){
+    color: var(--color-bg-1); 
+    padding: 7px; 
+    
+}
+
+.attraction {
+    background-color: #eee;
+    color: var(--color-bg-1); 
+    margin: 10px; 
+}
+
+.attraction:nth-child(even), .attraction:nth-child(even) *  {
+background-color: #757495;
+color: var(--dark-gray); 
+}
+
+
+.attraction figure {
+    width: 100%;
+    grid-area: photo; 
+}
+
+.attraction figure img{
+    display: block;
+    padding: 8px 0  ; 
+    justify-self: center;  
+    width: 280px; 
+    height:200px; 
+    object-fit: cover;
+
+}
+
+.attraction h2{
+    grid-area: name; 
+}
+
+.attraction address{
+    grid-area: address; 
+}
+
+.attraction p {
+    grid-area: description; 
+}
 
