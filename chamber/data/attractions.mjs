@@ -18,7 +18,7 @@ export const jsonData = {
         },
         {
             "name" : "Independence Square",
-            "address": "72nd and Monaco",
+            "address": "72nd and Accra",
             "description" : "Independence Square, also called Black Star Square is a large open public space that represents Ghana freedom and national pride",
             "website": "https://www.c3gov.com/Government/Urban-Renewal/Derby-Downtown-District",
             "photo": "images/independence.jpg"
@@ -45,16 +45,16 @@ export const jsonData = {
             "photo": "images/sea.jpg"
         },
         {
-            "name": "88 DriveIn Theater", 
+            "name": "Accra Trotro", 
             "address": "8780 Rosemary Street", 
-            "description": "The last remaining original drive-in theater in the Denver Metropolis in operation since 1972.  Drive on in nightly for at least a double feature starting at dusk spring through fall.", 
+            "description": "A trotro is the most common and affordable way to move around Accra. If you live in or visit Accra, you will see them everywhere", 
             "website": "https://www.88drivein.net/",
             "photo": "images/trotro.jpg"
         },
         {
-            "name": "Mile High Flea Market", 
+            "name": "Homowo Festival", 
             "address": "7007 East 88th Avenue",
-            "description": "Local farmers, crafters, garage salers, side hustlers, hobbyists, and business starters sell their new.  Visit us to find shopping, entertainment, rides, and food! It's like a fair, but open from 7 am to 5 pm every Friday, Saturday, and Sunday all year long! ",
+            "description": "The Homowo Festival is one of the most important traditional festivals in Accra, celebrated by the Ga people",
             "website": "https://milehighfleamarket.com/",
             "photo": "images/culture.jpg"
         }
