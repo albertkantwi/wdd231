@@ -41,7 +41,7 @@ export const jsonData = {
             "name": "La Pleasure Beach",
             "address": "5951 Accra", 
             "description": "La Pleasure Beach is one of the most popular and lively beaches in Accra. Eat local food like grilled fish, kebabs, and drinks", 
-            "website": "https://www.c3gov.com/Parks-Recreation-Golf/Pools/Paradice-Island-Pool-at-Pioneer-Park",
+            "website": "https://lapleasurebeachresort.com/",
             "photo": "images/sea.jpg"
         },
         {
