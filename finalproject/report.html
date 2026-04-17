@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD 231 - Accra Illegal Fishing Awareness Center Homepage - Albert Antwi homepage">
+    <meta name="author" content="Albert Antwi">
+    <meta property="og:title" content="Accra Illegal Fishing Awareness Center Homepage">
+    <meta property="og:description" content="The Accra Illegal Fishing Awareness Center is committed do reducing illegal fishing through education and community involvement.">
+    <meta property="og:url" content="https://albertkantwi.github.io/wdd231/finalproject/index.html">
+    <meta property="og:image" content="https://albertkantwi.github.io/wdd231/finalproject/images/hero-home.jpg">
+    <meta property="og:image:width" content="1280">
+    <meta property="og:image:height" content="720">
+    <link rel="icon" href="https://albertkantwi.github.io/wdd231/finalproject/images/crime_favicon.ico">
+    <link rel="stylesheet" href="styles/mobile.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script type="module" src="scripts/navigation.js"></script>
+    <script type="module" src="scripts/homepage.js"></script>
+    <script type="module" src="scripts/fetch_crimes.js"></script>
+    <script type="module" src="scripts/loadcrimes.js"></script>
+    <title>Accra Illegal Fishing Awareness Center Homepage</title>
+</head>
+<body>
+    <header>
+        <img src="images/logo.jpg" alt="Accra illegal fishing logo">
+        <h1>Accra Illegal Fishing Awareness Center</h1>
+        <button aria-label="Navigation" id="ham-btn" class="hamburger index"></button>
+        <nav id="nav-bar" class="navigation">
+            <ul>
+                <li class="home current"><a href="https://albertkantwi.github.io/wdd231/finalproject/index.html"><span
+                            class="checked">✓</span>Home</a></li>
+                <li class="incidents"><a
+                        href="https://albertkantwi.github.io/wdd231/finalproject/incidents.html"><span></span>Incidents</a></li>
+                <li class="report"><a href="https://albertkantwi.github.io/wdd231/finalproject/report.html"><span></span>Report</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="grid">
+            <div class="hero limited">
+                <img src="images/report-hero.jpg" alt="image of the sea">
+            </div>
+                <h2>Safety is Everyone's Responsibility</h2>
+                <p>The information on this website is provided as a service to the Denver Community.  Remaining vigilant and informed 
+                    is the best way to deter becoming a victim of crime.  The information provided has been gathered by the City and County 
+                    of Denver and the Denver Police Department.  The information is available on the Denver Open data library.  It has been 
+                    extracted and presented in a form that may be easier for some users to interact with and understand.  This 
+                    website is not intended to be your only source of information and you are encouraged to seek out other information to 
+                    help keep you safe.   
+                </p>
+                
+                <h3 class="hide">Participate in your own well being!</h3>
+                <div class="report_img limited something">
+                    <img  src="images/say-something.jpg" alt="If you see something, say something" loading="lazy">
+                </div>
+        </div>
+        <h4>Report Suspected Crimes to the Police!</h4>
+        <p class="center">In an emergency, always dial 911.  To report a crime anonymously, fill out the following form.</p>
+        <div class="anonymous_report">
+
+            <form action="report_received.html" method="get" target="_blank">
+                <div class="form-group">
+                    <label for="reportCategory">Type of Crime</label>
+                    <select name="category" id="reportCategory">
+                        <option value="">Select a Category</option>
+                        <option value="assault">Assault</option>
+                        <option value="theft">Theft</option>
+                        <option value="burglary">Burglary</option>
+                        <option value="robbery">Robbery</option>
+                        <option value="vandalism">Vandalism</option>
+                        <option value="drug-activity">Drug-Activity</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+            
+                <div class="form-group">
+                    <label for="reportDate">Date of Incident</label>
+                    <input type="date" id="reportDate" name="date" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="reportLocation">Where did the Crime occur?</label>
+                    <input type="text" id="reportLocation" name="location" placeholder="Street Address">
+                </div>
+                
+                <div class="form-group">
+                    <label for="description">Crime Description</label>
+                    <textarea name="description" id="description" placeholder="Describe what happened.  Include as many details as possible." required></textarea>
+                </div>
+                
+                <div class="form-group">
+                    <button class="anonym" type="submit">Submit Anonymous Report</button>
+                </div>
+            
+            </form>
+        </div>
+        <div class="report_img ">
+
+            <img src="images/protect.jpg" alt="Protect yourself from human trafficking" loading="lazy">
+        </div>
+
+         
+    </main>
+    <footer>
+        <div class="address">
+            <h5>Accra Illegal Fishing Awareness<br>Center</h5>
+            <p>P.O. Box 11045 </p>
+            <p>Commerce City, CO 80022</p>
+            <p>info@accraillegalfishing.net</p>
+            <p>+233 471-0211</p>
+                
+        </div>
+        <div class="social">
+            <a href="https://www.facebook.com" target="_blank"><img src="../images/facebook.svg"
+                    alt="Facebook logo" width="80" height="80"></a>
+            <a href="https://www.linkedin.com/" target="_blank"><img
+                    src="../images/linkedin.svg" alt="LinkedIn logo" width="80" height="80"></a>
+            <a href="https://x.com/" target="_blank"><img src="../images/github.svg" alt="Github logo"
+                    width="80" height="80"></a>
+        </div>
+        <div class="copyright">
+            <p>Accra Illegal Fishing Awareness Center</p>
+            <p>Albert Antwi</p>
+        <span id="currentyear">© 2026 Accra Illegal Fishing Awareness Center</span>
+            <p id="lastModified">Last Modified: 01/14/2026 19:57:56</p>
+            <h5><a href="attributions.html">Attributions</a></h5>
+        </div>
+    </footer>
+    </footer>
+    
+</body>
+</html>

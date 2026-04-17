@@ -301,3 +301,76 @@ dialog p {
     border-radius: 5px;
     cursor: pointer;
 }
+
+.anonymous_report {
+    max-width: 800px;
+    margin: 10px auto;
+    padding: 12px;
+    border: 1px solid var(--bg2);
+    border-radius: 5px;
+    background-color: var(--bg2);
+    justify-items: center;
+}
+
+.form-group, form {
+    margin-bottom: 10px;
+    background-color: var(--bg2);
+    width: 100%;
+    max-width: 450px;
+    padding: 10px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--bg);
+    border-radius: 5px;
+}
+
+.anonym {
+    padding: 10px 10px;
+    background-color: var(--big-text);
+    color: var(--bg);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.anonym:hover {
+    background-color: var(--small-text);
+
+}
+
+
+.report_image {
+    width: 100%;
+    max-width: 1100px;
+    justify-self: center; 
+    align-self: center;
+}
+
+.report_img {
+    margin: 0 80px;
+
+}
+
+.limited{
+    max-width: 480px;
+    justify-self: center; 
+    align-self: center; 
+}
+
+.center{
+    text-align: center;
+    padding: var(--large); 
+    font-size: 1.35rem; 
+    font-weight: bold;
+    justify-self: center; 
+}

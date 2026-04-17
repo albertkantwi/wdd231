@@ -39,6 +39,141 @@
         </nav>
     </header>
     <main>
+        <div class="hero">
+            <img src="images/incident-hero.jpg" alt="image of fishermen">      
+        </div>
+        <h2>Explore Crime in Denver</h2>
+        <div class="flex">
+            
+            <label class="incidents" for="category">Choose a Crime Category</label>
+            <select class="incidents"  name="category" id="category">
+                <option class="incidents" value="all-categories" selected>All Categories</option>
+                <option class="incidents" value="aggravated-assault">Aggravated Assault</option>
+                <option class="incidents" value="all-other-crimes">All Other Crimes</option>
+                <option class="incidents" value="arson">Arson</option>
+                <option class="incidents" value="auto-theft">Auto Theft</option>
+                <option class="incidents" value="burglary">Burglary</option>
+                <option class="incidents" value="drug-alcohol">Drug / Alcohol</option>
+                <option class="incidents" value="larceny">Larceny</option>
+                <option class="incidents" value="murder">Murder</option>
+                <option class="incidents" value="other-crimes-against-persons">Other Crimes Against Persons</option>
+                <option class="incidents" value="public-disorder">Public Disorder</option>
+                <option class="incidents" value="robbery">Robbery</option>
+                <option class="incidents" value="theft-from-motor-vehicle">Theft From Motor Vehicle</option>
+                <option class="incidents" value="white-collar-crime">White Collar Crime</option>
+            </select>
+            
+            <label class="incidents" for="dateRange">Choose a Date Range</label>
+            <select class="incidents"  id="dateRange">
+                <option class="incidents" value="7" selected>Last 7 Days</option>
+                <option class="incidents" value="30">Last 30 Days</option>
+                <option class="incidents" value="90">Last 90 Days</option>
+                <option class="incidents" value="365">Last Year</option>
+            </select>
+            
+            <label class="incidents" for="neighborhood">Choose a Neighborhood</label>
+            <select class="incidents"  id="neighborhood" name="neighborhood">
+                <option class="incidents" value="">All Neighborhoods</option>
+                
+                <option class="incidents" value="athmar-park">Athmar Park</option>
+                <option class="incidents" value="auraria">Auraria</option>
+                <option class="incidents" value="baker">Baker</option>
+                <option class="incidents" value="barnum">Barnum</option>
+                <option class="incidents" value="barnum-west">Barnum West</option>
+                <option class="incidents" value="bear-valley">Bear Valley</option>
+                <option class="incidents" value="belcaro">Belcaro</option>
+                <option class="incidents" value="berkeley">Berkeley</option>
+                <option class="incidents" value="capitol-hill">Capitol Hill</option>
+                <option class="incidents" value="cbd">CBD</option>
+                <option class="incidents" value="central-park">Central Park</option>
+                <option class="incidents" value="chaffee-park">Chaffee Park</option>
+                <option class="incidents" value="cheesman-park">Cheesman Park</option>
+                <option class="incidents" value="cherry-creek">Cherry Creek</option>
+                <option class="incidents" value="city-park">City Park</option>
+                <option class="incidents" value="city-park-west">City Park West</option>
+                <option class="incidents" value="civic-center">Civic Center</option>
+                <option class="incidents" value="clayton">Clayton</option>
+                <option class="incidents" value="cole">Cole</option>
+                <option class="incidents" value="college-view-south-platte">College View South Platte</option>
+                <option class="incidents" value="congress-park">Congress Park</option>
+                <option class="incidents" value="cory-merrill">Cory Merrill</option>
+                <option class="incidents" value="country-club">Country Club</option>
+                <option class="incidents" value="dia">DIA</option>
+                <option class="incidents" value="east-colfax">East Colfax</option>
+                <option class="incidents" value="elyria-swansea">Elyria Swansea</option>
+                <option class="incidents" value="five-points">Five Points</option>
+                <option class="incidents" value="fort-logan">Fort Logan</option>
+                <option class="incidents" value="gateway-green-valley-ranch">Gateway Green Valley Ranch</option>
+                <option class="incidents" value="globeville">Globeville</option>
+                <option class="incidents" value="goldsmith">Goldsmith</option>
+                <option class="incidents" value="hale">Hale</option>
+                <option class="incidents" value="hampden">Hampden</option>
+                <option class="incidents" value="hampden-south">Hampden South</option>
+                <option class="incidents" value="harvey-park">Harvey Park</option>
+                <option class="incidents" value="harvey-park-south">Harvey Park South</option>
+                <option class="incidents" value="highland">Highland</option>
+                <option class="incidents" value="hilltop">Hilltop</option>
+                <option class="incidents" value="indian-creek">Indian Creek</option>
+                <option class="incidents" value="jefferson-park">Jefferson Park</option>
+                <option class="incidents" value="kennedy">Kennedy</option>
+                <option class="incidents" value="lincoln-park">Lincoln Park</option>
+                <option class="incidents" value="lowry-field">Lowry Field</option>
+                <option class="incidents" value="mar-lee">Mar Lee</option>
+                <option class="incidents" value="marston">Marston</option>
+                <option class="incidents" value="montbello">Montbello</option>
+                <option class="incidents" value="montclair">Montclair</option>
+                <option class="incidents" value="north-capitol-hill">North Capitol Hill</option>
+                <option class="incidents" value="north-park-hill">North Park Hill</option>
+                <option class="incidents" value="northeast-park-hill">Northeast Park Hill</option>
+                <option class="incidents" value="overland">Overland</option>
+                <option class="incidents" value="platt-park">Platt Park</option>
+                <option class="incidents" value="regis">Regis</option>
+                <option class="incidents" value="rosedale">Rosedale</option>
+                <option class="incidents" value="ruby-hill">Ruby Hill</option>
+                <option class="incidents" value="skyland">Skyland</option>
+                <option class="incidents" value="sloan-lake">Sloan Lake</option>
+                <option class="incidents" value="south-park-hill">South Park Hill</option>
+                <option class="incidents" value="southmoor-park">Southmoor Park</option>
+                <option class="incidents" value="speer">Speer</option>
+                <option class="incidents" value="sun-valley">Sun Valley</option>
+                <option class="incidents" value="sunnyside">Sunnyside</option>
+                <option class="incidents" value="union-station">Union Station</option>
+                <option class="incidents" value="university">University</option>
+                <option class="incidents" value="university-hills">University Hills</option>
+                <option class="incidents" value="university-park">University Park</option>
+                <option class="incidents" value="valverde">Valverde</option>
+                <option class="incidents" value="villa-park">Villa Park</option>
+                <option class="incidents" value="virginia-village">Virginia Village</option>
+                <option class="incidents" value="washington-park">Washington Park</option>
+                <option class="incidents" value="washington-park-west">Washington Park West</option>
+                <option class="incidents" value="washington-virginia-vale">Washington Virginia Vale</option>
+                <option class="incidents" value="wellshire">Wellshire</option>
+                <option class="incidents" value="west-colfax">West Colfax</option>
+                <option class="incidents" value="west-highland">West Highland</option>
+                <option class="incidents" value="westwood">Westwood</option>
+                <option class="incidents" value="whittier">Whittier</option>
+                <option class="incidents" value="windsor">Windsor</option>
+            </select>
+        </div>
+        
+        <table class="incidents table">
+            <thead>
+                <tr>
+                    <th class="date">Date</th>
+                    <th class="crimeType">Offense Type</th>
+                    <th>Category</th>
+                    <th>Neighborhood</th>
+                    <th>Details</th>
+                </tr>
+            </thead>
+            <tbody class="crimes">
+                
+            </tbody>
+        </table>
+
+        <dialog id="detailsModal">
+        <button id="closeModal">Close</button>
+        </dialog>
          
     </main>
     <footer>
