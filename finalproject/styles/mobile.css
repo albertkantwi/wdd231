@@ -170,7 +170,7 @@ td {
     border-bottom: 1px dotted black;
     border-right: 1px dotted black;
     font-size: .85rem;
-    padding: var(--standard);
+    padding: 10px;
 }
 
 .recentCrimes{
