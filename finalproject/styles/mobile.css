@@ -297,7 +297,7 @@ dialog p {
     color: var(--btn-color);
     margin: 20px;
     padding: 10px;
-    border: 2px solid var(--bg2);
+    border: 2px solid var(--btn-color);
     border-radius: 5px;
     cursor: pointer;
 }
